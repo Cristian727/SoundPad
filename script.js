@@ -8,6 +8,7 @@ for(let i = 0; i < pads.length; i++){
     audioMap[pads[i].innerHTML.toLowerCase()] = audio
 
     pads[i].addEventListener("click", function(){
-      console.log("pulsaste el pad", pads[i])  
+      console.log("pulsaste el pad", pads[i])
+      console.log("Hola " + pads[i].innerHTML)
     })
 }
